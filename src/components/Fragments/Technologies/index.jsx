@@ -4,10 +4,11 @@ import { FaNodeJs } from "react-icons/fa";
 import { RiReactjsLine } from "react-icons/ri";
 import { SiMongodb } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
+import { BottomBorderedSection } from "../../Elements";
 
 const Technologies = () => {
   return (
-    <div className="pb-24 border-b border-neutral-800">
+    <BottomBorderedSection>
       <h1 className="my-20 text-4xl text-center">Technologies</h1>
       <div className="flex flex-wrap items-center justify-center gap-4">
         <div className="p-4 border-4 rounded-2xl border-neutral-800">
@@ -29,7 +30,7 @@ const Technologies = () => {
           <BiLogoPostgresql className="text-sky-400 text-7xl" />
         </div>
       </div>
-    </div>
+    </BottomBorderedSection>
   );
 };
 

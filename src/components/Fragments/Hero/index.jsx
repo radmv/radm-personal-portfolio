@@ -1,9 +1,10 @@
 import profilePic from "../../../assets/kevinRushProfile.png";
 import { HERO_CONTENT } from "../../../constants";
+import { BottomBorderedSection } from "../../Elements";
 
 const Hero = () => {
   return (
-    <div className="pb-4 border-b border-neutral-900 lg:mb-32">
+    <BottomBorderedSection addClassname="lg:mb-32">
       <div className="flex flex-wrap">
         <div className="w-full lg:w-1/2">
           <div className="flex flex-col items-center lg:items-start">
@@ -22,7 +23,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-    </div>
+    </BottomBorderedSection>
   );
 };
 

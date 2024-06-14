@@ -1,9 +1,10 @@
 import aboutImg from "../../../assets/about.jpg";
 import { ABOUT_TEXT } from "../../../constants";
+import { BottomBorderedSection } from "../../Elements";
 
 const About = () => {
   return (
-    <div className="pb-4 border-b border-neutral-900">
+    <BottomBorderedSection>
       <h1 className="my-20 text-4xl text-center">
         About
         <span className="text-neutral-500"> Me</span>
@@ -20,7 +21,7 @@ const About = () => {
           </div>
         </div>
       </div>
-    </div>
+    </BottomBorderedSection>
   );
 };
 
