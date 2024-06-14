@@ -4,6 +4,7 @@ import {
   Experience,
   Hero,
   Navbar,
+  Projects,
   Technologies,
 } from "../components";
 
@@ -15,6 +16,7 @@ const LandingPage = () => {
       <About />
       <Technologies />
       <Experience />
+      <Projects />
     </BackgroundPageLayout>
   );
 };
