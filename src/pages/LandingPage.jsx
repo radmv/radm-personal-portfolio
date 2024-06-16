@@ -1,6 +1,7 @@
 import {
   About,
   BackgroundPageLayout,
+  Contact,
   Experience,
   Hero,
   Navbar,
@@ -17,6 +18,7 @@ const LandingPage = () => {
       <Technologies />
       <Experience />
       <Projects />
+      <Contact />
     </BackgroundPageLayout>
   );
 };
