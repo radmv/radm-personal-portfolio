@@ -1,6 +1,5 @@
 import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
-import { FaSquareXTwitter } from "react-icons/fa6";
-import logo from "../../../assets/kevinRushLogo.png";
+import logo from "../../../assets/rizkiAdamLogo.png";
 
 const Navbar = () => {
   return (
@@ -9,10 +8,18 @@ const Navbar = () => {
         <img src={logo} alt="logo" className="w-10 mx-2" />
       </div>
       <div className="flex items-center justify-center gap-4 m-8 text-2xl">
-        <FaLinkedin />
-        <FaGithub />
-        <FaInstagram />
-        <FaSquareXTwitter />
+        <a
+          href="https://www.linkedin.com/in/angga-rizki-b67999280"
+          target="_blank"
+        >
+          <FaLinkedin />
+        </a>
+        <a href="https://github.com/radmv" target="_blank">
+          <FaGithub />
+        </a>
+        <a href="https://instagram.com/cheezebug" target="_blank">
+          <FaInstagram />
+        </a>
       </div>
     </nav>
   );

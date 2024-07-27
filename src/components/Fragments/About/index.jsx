@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import aboutImg from "../../../assets/about.jpg";
+import aboutImg from "../../../assets/about2.jpg";
 import { ABOUT_TEXT } from "../../../constants";
 import { BottomBorderedSection } from "../../Elements";
 

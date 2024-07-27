@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import profilePic from "../../../assets/kevinRushProfile.png";
+import profilePic from "../../../assets/anggaRizkiProfile.png";
 import { HERO_CONTENT } from "../../../constants";
 import { BottomBorderedSection } from "../../Elements";
 
@@ -58,6 +58,7 @@ const Hero = () => {
               transition={{ duration: 1, delay: 1.2 }}
               src={profilePic}
               alt="Rizki Adam"
+              className="rounded-xl"
             />
           </div>
         </div>
