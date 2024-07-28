@@ -1,5 +1,6 @@
 import project1 from "../assets/projects/project-1-1.png";
 import project2 from "../assets/projects/project-1-2.png";
+import project3 from "../assets/projects/project-1-3.png";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Laravel Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -32,12 +33,19 @@ export const PROJECTS = [
     link: "https://github.com/radmv/radm-gawebang",
   },
   {
-    title: "Portfolio Website",
+    title: "Personal Portfolio Website",
     image: project2,
     description:
       "A website that helps everyone to know about me and my projects.",
     technologies: ["HTML", "CSS", "ReactJS", "Framer Motion", "Vercel"],
-    link: "https://github.com/radmv/radm-gawebang",
+    link: "https://radm-portfolio.vercel.app/",
+  },
+  {
+    title: "Frontend React Staycation Website",
+    image: project3,
+    description: "A frontend website that helps everyone to booking hotels.",
+    technologies: ["HTML", "CSS", "ReactJS", "Javascript"],
+    link: "https://radm-staycation.vercel.app/",
   },
 ];
 
